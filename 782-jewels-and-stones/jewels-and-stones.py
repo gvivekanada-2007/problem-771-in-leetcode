@@ -1,0 +1,10 @@
+class Solution:
+    def numJewelsInStones(self, jewels: str, stones: str) -> int:
+              
+              #vivekananda
+              ans = 0
+              for i in jewels:
+                  for j in stones:
+                     if i == j:
+                         ans = ans+1
+              return ans   
